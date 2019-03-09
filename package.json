@@ -1,0 +1,31 @@
+{
+  "name": "m-tsx",
+  "version": "1.0.0",
+  "description": "Mithril + JSX + TS Starter kit.",
+  "author": "Roberto von Schoettler",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel serve index.html",
+    "build": "cross-env NODE_ENV=production parcel build index.html -d build/ --public-url ./",
+    "lint": "eslint src/**/*"
+  },
+  "dependencies": {
+    "mithril": "^1.1.6",
+    "parcel-bundler": "^1.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-react-jsx": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "@types/mithril": "^1.1.14",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "eslint": "^5.12.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.12.2",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
